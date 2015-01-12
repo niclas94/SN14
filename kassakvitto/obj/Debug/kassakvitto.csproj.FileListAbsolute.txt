@@ -1,6 +1,0 @@
-C:\Projects\kassakvitto\bin\Debug\kassakvitto.exe.config
-C:\Projects\kassakvitto\obj\Debug\kassakvitto.csprojResolveAssemblyReference.cache
-C:\Projects\kassakvitto\bin\Debug\kassakvitto.exe
-C:\Projects\kassakvitto\bin\Debug\kassakvitto.pdb
-C:\Projects\kassakvitto\obj\Debug\kassakvitto.exe
-C:\Projects\kassakvitto\obj\Debug\kassakvitto.pdb
