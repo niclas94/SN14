@@ -26,6 +26,7 @@ namespace kassakvitto
 					Console.Write("Ange totalsumma     :  ");
 					subtotal = double.Parse(Console.ReadLine());
 
+
 					if (subtotal < 0.50)
 					{
 						Console.BackgroundColor = ConsoleColor.Red;
@@ -33,15 +34,17 @@ namespace kassakvitto
 						Console.ResetColor();
 						return;
 					}
+					break;
+					
 				}
-				catch
+				catch(Exception)
 				{
 					Console.BackgroundColor = ConsoleColor.Red;
 					Console.WriteLine("FEL! Erhållet belopp felaktigt.");
 					Console.ResetColor();
-					return;
 				}
-				break;
+				
+				
 			}
 			while(true)
 			{
@@ -56,15 +59,14 @@ namespace kassakvitto
 						Console.ResetColor();
 						return;
 					}
+					break;
 				}
 				catch
 				{
 					Console.BackgroundColor = ConsoleColor.Red;
 					Console.WriteLine("FEL! Erhållet belopp felaktigt.");
 					Console.ResetColor();
-					return;
 				}
-				break;
 			}
 			total = (uint)Math.Round(subtotal);
 			avrundatBelopp = total - subtotal;
